@@ -524,17 +524,19 @@ body.section-switching.up .animation-block{
 =======================================================*/
 .about-section{
 	background:#F0F0F0;
+	
 }
 .about-block .section-header{
-	margin-bottom:80px;
+	/* margin-bottom:80px; */
+	
 }
 .about-text > p{
-	font-size:14px;
-	color:rgba(0,0,0,.4);
+	font-size:18px;
+	/* color:rgba(0,0,0,.4); */
 	line-height:1.8em;
 }
 .about-text{
-	margin-bottom:25px;
+	/* margin-bottom:25px; */
 }
 .about-btns > .btn-custom{
 	margin-right:25px;
@@ -627,7 +629,7 @@ body.section-switching.up .animation-block{
 	margin:0;
 }
 .skills-block .section-header{
-	margin-bottom:80px;
+	margin-bottom:40px;
 }
 .skill{
 	position:relative;
@@ -798,6 +800,7 @@ body.section-switching.up .animation-block{
 }
 .timeline > li > .timeline-content{
 	padding:25px;
+	
 	border:solid 1px #B6B6B6;
 	position:relative;
 }
@@ -828,7 +831,7 @@ body.section-switching.up .animation-block{
 .timeline > li > .timeline-content > em{
 	margin-bottom:10px;
 	display:block;
-	color:rgba(0,0,0,.6);
+	/* color:rgba(0,0,0,.6); */
 }
 .timeline > li > .timeline-content > em > span{
 	margin-right:10px;
@@ -836,7 +839,7 @@ body.section-switching.up .animation-block{
 .timeline > li > .timeline-content > p{
 	margin:0;
 	line-height:1.6em;
-	color:rgba(0,0,0,.4);
+	/* color:rgba(0,0,0,.4); */
 }
 .testimonials-block .section-header{
 	margin-bottom:80px;
@@ -1414,3 +1417,21 @@ body.loaded #preloader .loader{
 		padding-top:0;
 	}
 }
+
+
+/* Custome css */
+
+
+.custom-ul{
+	font-weight: bold;
+	list-style: none;
+}
+
+.custom-ul  li::before {
+	content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+	color: blue; /* Change the color */
+	font-weight: bold; /* If you want it to be bold */
+	display: inline-block; /* Needed to add space between the bullet and the text */
+	width: 1em; /* Also needed for space (tweak if needed) */
+	margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
